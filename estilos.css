@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,400italic,700,700italic);
+/* veja que o código de comentário é diferente do HTML. 
+E não se usa a tag style para acionar o CSS por aqui, 
+pois é típico do código html.
+Acima, há a importação da fonte, veja que é diferente 
+da importação dentro de um arquivo html. */
+
+body {
+background-color: white;
+color: black;
+font-size: 14;
+font-family: Arial;
+} /* estilo geral dos textos do site*/
+
+div {
+width:220px;
+border:5px solid gray;
+} /* estilo geral dos div do site*/
+
+#gato {
+width:220px;
+} /* estilo geral de imagem que contém o animal gato. Deve-se inserir o "#" */
+
+h1 {
+color:yellow;
+} /* estilo geral dos h1 do site*/
