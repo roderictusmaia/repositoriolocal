@@ -1,11 +1,11 @@
 public class aluno {
 
-prova prova1;
-prova prova2;
+prova primeiraprova;
+prova segundaprova;
 
 
 double calcularMediaprova(){
-double media = prova1.calcularTotal() + prova2.calcularTotal();
+double media = primeiraprova.calcularTotal() + segundaprova.calcularTotal();
 return media/2;
 }
 

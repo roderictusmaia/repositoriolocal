@@ -1,14 +1,14 @@
 public class turma {
 
-aluno aluno1;
-aluno aluno2;
-aluno aluno3;
+aluno primeiroaluno;
+aluno segundoaluno;
+aluno terceiroaluno;
 
 double calcularMediaturma(){
 double media = 
-aluno1.calcularMediaprova()+
-aluno2.calcularMediaprova()+
-aluno3.calcularMediaprova();
+primeiroaluno.calcularMediaprova()+
+segundoaluno.calcularMediaprova()+
+terceiroaluno.calcularMediaprova();
 return media/3;
 }
 
