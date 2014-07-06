@@ -16,46 +16,28 @@ turma1.primeiroaluno=aluno1;
 turma1.segundoaluno=aluno2;
 turma1.terceiroaluno=aluno3;
 	
-System.out.println("Digite a nota:");
-double a = s.nextDouble();
-System.out.println("Digite a nota:");
-double b = s.nextDouble();
-prova prova1 = new prova(a,b);
+prova prova1 = new prova();
+prova1.setNotas();
 aluno1.primeiraprova = prova1;
 
-System.out.println("Digite a nota:");
-double c = s.nextDouble();
-System.out.println("Digite a nota:");
-double d = s.nextDouble();
-prova prova2 = new prova(c,d);
+prova prova2 = new prova();
+prova2.setNotas();
 aluno1.segundaprova = prova2;
 
-System.out.println("Digite a nota:");
-double e = s.nextDouble();
-System.out.println("Digite a nota:");
-double f = s.nextDouble();
-prova prova3 = new prova(e,f);
+prova prova3 = new prova();
+prova3.setNotas();
 aluno2.primeiraprova = prova3;
 
-System.out.println("Digite a nota:");
-double g = s.nextDouble();
-System.out.println("Digite a nota:");
-double h = s.nextDouble();
-prova prova4 = new prova(g,h);
+prova prova4 = new prova();
+prova4.setNotas();
 aluno2.segundaprova = prova4;
 
-System.out.println("Digite a nota:");
-double i = s.nextDouble();
-System.out.println("Digite a nota:");
-double j = s.nextDouble();
-prova prova5 = new prova(i,j);
+prova prova5 = new prova();
+prova5.setNotas();
 aluno3.primeiraprova = prova5;
 
-System.out.println("Digite a nota:");
-double k = s.nextDouble();
-System.out.println("Digite a nota:");
-double l = s.nextDouble();
-prova prova6 = new prova(k,l);
+prova prova6 = new prova();
+prova6.setNotas();
 aluno3.segundaprova = prova6;
 
 double mediaprova1 = prova1.calcularTotal();
